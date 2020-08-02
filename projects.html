@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJDiggs - Web Developer</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <a href="index.html" class="logo">MD</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <i class="fas fa-bars"></i>
+                <a href="https://mjdiggs18e.github.io/PersonalPortfolio/resume-portfolio.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
+                <a href="https://github.com/mjdiggs18e" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </header>
+    
+    <div class="project-content">
+        <h1 class="project-title">Projects</h1>
+        <div class="project-holder">
+            <div class="project-maincard">
+                <div class="project-image">
+                    <a href="https://mjdiggs18e.github.io/ColumbiaPikeAH/" target="_blank"><img src="./images/columbia.png" alt="animal hospital"></a>  
+                </div>
+                <div class="project-body">
+                    <p class="cardtitle">Columbia Pike Animal Hospital</p>
+                    <p class="description">Redesigned a local animal hospitals website.
+                        Page is currently using a custom page builder so I decided to create my own
+                        with a nice and playful design using various colors.
+                        Made with HTML and CSS to try and polish my skills.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/mjdiggs18e/ColumbiaPikeAH" target="_blank"><button>View Code</button></a>
+                        <a href="https://mjdiggs18e.github.io/ColumbiaPikeAH/" target="_blank"><button>Live Site</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-maincard">
+                <div class="project-image">
+                    <a href="https://mjdiggs18e.github.io/AngelasCleaningServices/" target="_blank"><img src="./images/angela.png" alt="angelas"></a>  
+                </div>
+                <div class="project-body">
+                    <p class="cardtitle">Angela's Cleaning Services</p>
+                    <p class="description">Redesigned a local cleaning services website.
+                        This is just a nice one page design to try and make it more modern
+                        and clean. Made with HTML and CSS to try and practice my skills.
+                        I plan to redo the code in the future and update it even more as I can 
+                        additional coding knowledge.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/mjdiggs18e/AngelasCleaningServices" target="_blank"><button>View Code</button></a>
+                        <a href="https://mjdiggs18e.github.io/AngelasCleaningServices/" target="_blank"><button>Live Site</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-maincard">
+                <div class="project-image">
+                    <a href="https://mjdiggs18e.github.io/AniSchedule/" target="_blank"><img src="./images/anischedule.PNG" alt="anischedule"></a>  
+                </div>
+                <div class="project-body">
+                    <p class="cardtitle">AniSchedule</p>
+                    <p class="description">Created a website to pull data from Anilist.co public api
+                        using GraphQL and Fetch. Website currently shows seasonal anime shows
+                        for Summer 2020, Fall 2020, and Winter 2021. Pulls various data such as
+                        title, genre, description, mean score, and more.
+                    </p>
+                    <div class="project-buttons">
+                        <a href="https://github.com/mjdiggs18e/AniSchedule" target="_blank"><button>View Code</button></a>
+                        <a href="https://mjdiggs18e.github.io/AniSchedule/" target="_blank"><button>Live Site</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script src="./javascript/main.js"></script>
+
+    <script>
+        var tl = gsap.timeline({defaults: {duration: 1}})
+        tl.from('.logo', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'})
+        tl.from('ul', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.6")
+        tl.from('.social-icons', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.6")
+        tl.from('.project-title', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+        tl.from('.project-maincard', {opacity: 0, duration: .8, y: -50, stagger:.1, ease: 'Power-4.easeInOut'}, "-=.4")
+    </script>
+</body>
+</html>

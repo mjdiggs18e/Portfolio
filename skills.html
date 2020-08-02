@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJDiggs - Web Developer</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <a href="index.html" class="logo">MD</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <i class="fas fa-bars"></i>
+                <a href="https://mjdiggs18e.github.io/PersonalPortfolio/resume-portfolio.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
+                <a href="https://github.com/mjdiggs18e" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </header>
+    
+    <div class="skills-content">
+        <h1 class="skills-title">Skills</h1>
+        <p class="skills-tagline">or view my <a href="https://mjdiggs18e.github.io/PersonalPortfolio/resume-portfolio.pdf" target="_blank">Resume</a></p>
+        <div class="skill-layout">
+            <div class="skills-technical">
+                <h5>Technical Skills:</h5>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>SASS</p>
+                <p>Javascript (ES6+)</p>
+                <p>React</p>
+                <p>Git</p>
+            </div>
+            <div class="skills-soft">
+                <h5>Soft Skills:</h5>
+                <p>Critical-Thinking</p>
+                <p>Organization</p>
+                <p>Dependable</p>
+                <p>Problem-Solver</p>
+                <p>Team-Player</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script src="./javascript/main.js"></script>
+
+    <script>
+        var tl = gsap.timeline({defaults: {duration: 1}})
+        tl.from('.logo', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'})
+        tl.from('ul', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.6")
+        tl.from('.social-icons', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.6")
+        tl.from('.skills-title', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+        tl.from('.skills-tagline', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+        tl.from('.skills-technical', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+        tl.from('.skills-technical p', {opacity: 0, duration: .8, y: -50,stagger: .1, ease: 'Power-4.easeInOut'}, "-=.8")
+        tl.from('.skills-soft', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+        tl.from('.skills-soft p', {opacity: 0, duration: .8, y: -50, stagger: .1, ease: 'Power-4.easeInOut'}, "-=.8")
+    </script>
+
+</body>
+</html>

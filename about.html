@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJDiggs - Web Developer</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <a href="index.html" class="logo">MD</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <i class="fas fa-bars"></i>
+                <a href="https://mjdiggs18e.github.io/PersonalPortfolio/resume-portfolio.pdf" target="_blank"><i class="fas fa-file-alt"></i></a>
+                <a href="https://github.com/mjdiggs18e" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </header>
+    
+    <div class="about-content">
+        <h1 class="about-title">About Me</h1>
+        <p class="about-tagline">Hey, my name is Michael Diggs.
+             I'm a Front-end web developer who spends most of my
+            days coding, designing, or learning more about the
+            web. For almost a year now, I've taken steps to 
+            improve and adapt so that my skillset and knowledge
+            will remain up to date.</p>
+        <a href="projects.html"><button class="about-button">View My Projects</button></a>
+    </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script src="./javascript/main.js"></script>
+
+    <script>
+        var tl = gsap.timeline({defaults: {duration: 1}})
+        tl.from('.logo', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'})
+        tl.from('ul', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.6")
+        tl.from('.social-icons', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.6")
+        tl.from('.about-title', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+        tl.from('.about-tagline', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+        tl.from('.about-button', {opacity: 0, duration: .8, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
+    </script>
+
+</body>
+</html>
