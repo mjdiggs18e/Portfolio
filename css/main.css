@@ -399,6 +399,9 @@ header .social-icons .fa-bars {
 }
 
 @media (max-width: 768px) {
+  header {
+  justify-content: space-between;
+}
   header .activew {
     display: -webkit-box;
     display: -ms-flexbox;
