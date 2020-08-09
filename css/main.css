@@ -27,8 +27,7 @@ header {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-around;
-  align-items: center;
+          justify-content: space-between;
 }
 
 header .logo {
@@ -49,7 +48,7 @@ header ul {
 }
 
 header li {
-  padding: 00px 20px;
+  padding: 10px 20px;
   font-size: 18px;
   letter-spacing: 1px;
   color: #dbd5d5;
@@ -61,6 +60,7 @@ header .active {
 
 header .social-icons {
   font-size: 24px;
+  padding: 7px 0 0 0;
 }
 
 header .social-icons .fa-file-alt {
@@ -224,20 +224,25 @@ header .social-icons .fa-bars {
 .project-content .project-title {
   font-size: 64px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .project-content .project-holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .project-content .project-holder .project-maincard {
   width: 400px;
   background: #212840;
   overflow: hidden;
-  margin-right: 40px;
+  margin: 10px 40px 10px 0;
   border-radius: 12px;
 }
 
@@ -267,6 +272,7 @@ header .social-icons .fa-bars {
   padding: .3rem;
   cursor: pointer;
   color: #fff;
+  border-radius: 12px;
   border: none;
   outline: none;
   font-weight: 500;
@@ -380,11 +386,12 @@ header .social-icons .fa-bars {
     letter-spacing: 1px;
   }
   .project-content .project-holder .project-maincard .project-body .project-buttons button {
-    width: 50px;
+    width: 100px;
     height: 40px;
     padding: .6rem;
     cursor: pointer;
     color: #fff;
+    border-radius: 12px;
     border: none;
     outline: none;
     font-weight: 500;
@@ -399,9 +406,6 @@ header .social-icons .fa-bars {
 }
 
 @media (max-width: 768px) {
-  header {
-  justify-content: space-between;
-}
   header .activew {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -446,7 +450,15 @@ header .social-icons .fa-bars {
     margin: 0 10px 20px 0;
     letter-spacing: 1px;
   }
-
+  .skills-content .skill-layout .skills-soft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+    margin: 50px auto;
+  }
   .skills-content .skill-layout .skills-soft h5 {
     font-size: 22px;
     padding-right: 15px;
@@ -548,7 +560,7 @@ header .social-icons .fa-bars {
     width: 250px;
     background: #212840;
     overflow: hidden;
-    margin: 0 auto 80px auto;
+    margin: 0 auto 20px auto;
   }
   .project-content .project-holder .project-maincard .project-body {
     padding: .6rem 1.5rem;
@@ -569,6 +581,7 @@ header .social-icons .fa-bars {
     padding: .3rem;
     cursor: pointer;
     color: #fff;
+    border-radius: 12px;
     border: none;
     outline: none;
     font-weight: 500;

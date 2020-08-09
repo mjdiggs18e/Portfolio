@@ -221,12 +221,15 @@ header {
 
     .project-holder {
         display: flex;
-        
+        flex-wrap: wrap;
+        justify-content: center;
+
+
         .project-maincard {
             width: 400px;
             background: #212840;
             overflow: hidden;
-            margin-right: 40px;
+            margin: 10px 40px 10px 0;
             border-radius: 12px;
 
             .project-image {
@@ -376,7 +379,7 @@ header {
     
                     .project-buttons {
                         button {
-                            width: 50px;
+                            width: 100px;
                             height: 40px;
                             padding: .6rem;
                             cursor: pointer;
