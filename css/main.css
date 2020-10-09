@@ -63,7 +63,7 @@ header .social-icons {
   padding: 7px 0 0 0;
 }
 
-header .social-icons .fa-file-alt {
+header .social-icons .fa-twitter {
   margin-right: 20px;
 }
 
@@ -188,7 +188,7 @@ header .social-icons .fa-bars {
   border-radius: 4px;
   background: #252d4f;
   padding: .5rem;
-  margin: 0 10px 10px 0;
+  margin-right: 15px;
   letter-spacing: 1px;
 }
 
@@ -242,7 +242,7 @@ header .social-icons .fa-bars {
   width: 400px;
   background: #212840;
   overflow: hidden;
-  margin: 20px 40px 50px 0;
+  margin: 10px 40px 10px 0;
   border-radius: 12px;
 }
 
@@ -272,6 +272,7 @@ header .social-icons .fa-bars {
   padding: .3rem;
   cursor: pointer;
   color: #fff;
+  border-radius: 12px;
   border: none;
   outline: none;
   font-weight: 500;
@@ -390,6 +391,7 @@ header .social-icons .fa-bars {
     padding: .6rem;
     cursor: pointer;
     color: #fff;
+    border-radius: 12px;
     border: none;
     outline: none;
     font-weight: 500;
@@ -441,17 +443,6 @@ header .social-icons .fa-bars {
     display: flex;
     cursor: pointer;
   }
-  
-    .skills-content .skill-layout .skills-technical {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 50px auto;
-    width: 90%;
-  }
-  
   .skills-content .skill-layout .skills-technical p {
     border-radius: 4px;
     background: #252d4f;
@@ -590,6 +581,7 @@ header .social-icons .fa-bars {
     padding: .3rem;
     cursor: pointer;
     color: #fff;
+    border-radius: 12px;
     border: none;
     outline: none;
     font-weight: 500;
