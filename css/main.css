@@ -188,7 +188,7 @@ header .social-icons .fa-bars {
   border-radius: 4px;
   background: #252d4f;
   padding: .5rem;
-  margin-right: 15px;
+  margin: 0px 15px 5px 0px;
   letter-spacing: 1px;
 }
 
@@ -264,6 +264,11 @@ header .social-icons .fa-bars {
   font-size: 14px;
   margin-top: 10px;
   letter-spacing: 1px;
+}
+
+.project-content .project-holder .project-maincard .project-body .description a {
+  text-decoration: underline;
+  color: #fff;
 }
 
 .project-content .project-holder .project-maincard .project-body .project-buttons button {
@@ -433,7 +438,7 @@ header .social-icons .fa-bars {
     padding: 7px 0 0 0;
     z-index: 5;
   }
-  header .social-icons .fa-file-alt,
+  header .social-icons .fa-twitter,
   header .social-icons .fa-github {
     display: none;
   }
@@ -443,11 +448,14 @@ header .social-icons .fa-bars {
     display: flex;
     cursor: pointer;
   }
+  .skills-content .skill-layout .skills-technical {
+    width: 90%;
+  }
   .skills-content .skill-layout .skills-technical p {
     border-radius: 4px;
     background: #252d4f;
     padding: .5rem;
-    margin: 0 10px 20px 0;
+    margin: 0 20px 10px 0;
     letter-spacing: 1px;
   }
   .skills-content .skill-layout .skills-soft {
@@ -487,12 +495,12 @@ header .social-icons .fa-bars {
     width: 250px;
   }
   .about-content .about-tagline {
-    font-size: 20px;
+    font-size: 16px;
     color: #dbd5d5;
     margin: 30px auto 0 auto;
     letter-spacing: 1px;
     line-height: 25px;
-    max-width: 90%;
+    max-width: 95%;
   }
   .about-content .about-button {
     width: 250px;
