@@ -230,11 +230,12 @@ header {
             background: #212840;
             overflow: hidden;
             margin: 10px 40px 10px 0;
-            border-radius: 12px;
+            border-radius: 2px;
 
             .project-image {
                 img {
                     width: 100%;
+                    
                 }
             }
 
@@ -261,12 +262,12 @@ header {
 
                 .project-buttons {
                     button {
-                        width: 80px;
+                        width: 100px;
                         height: 40px;
                         padding: .3rem;
                         cursor: pointer;
                         color: #fff;
-                        border-radius: 12px;
+                        border-radius: 2px;
                         border: none;
                         outline: none;
                         font-weight: 500;
@@ -307,7 +308,7 @@ header {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin: 0 auto;
+            margin: 10px auto auto auto;
 
             label {
                 margin: 10px 0;
@@ -349,7 +350,7 @@ header {
                 border: none;
                 outline: none;
                 font-weight: 500;
-                height: 40px;
+                height: 50px;
                 background-color: #252d4f;
                 font-family: 'Ubuntu', sans-serif;
                 font-size: 16px;
@@ -372,7 +373,7 @@ header {
                 background: #212840;
                 overflow: hidden;
                 margin-right: 40px;
-                border-radius: 12px;
+                border-radius: 2px;
     
                 .project-body {
     
@@ -395,7 +396,7 @@ header {
                             padding: .6rem;
                             cursor: pointer;
                             color: #fff;
-                            border-radius: 12px;
+                            border-radius: 2px;
                             border: none;
                             outline: none;
                             font-weight: 500;
@@ -522,12 +523,12 @@ header {
     .about-content {
 
         .about-tagline {
-            font-size: 16px;
+            font-size: 18px;
             color: #dbd5d5;
             margin: 30px auto 0 auto;
             letter-spacing: 1px;
             line-height: 25px;
-            max-width: 95%;
+            max-width: 100%;
         }
         .about-button {
             width: 250px;
@@ -630,7 +631,7 @@ header {
                             padding: .3rem;
                             cursor: pointer;
                             color: #fff;
-                            border-radius: 12px;
+                            border-radius: 2px;
                             border: none;
                             outline: none;
                             font-weight: 500;
@@ -663,7 +664,7 @@ header {
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
-                margin: 20px auto 0 auto;
+                margin: 30px auto 0 auto;
     
                 label {
                     margin: 10px 0;
@@ -677,7 +678,7 @@ header {
                     letter-spacing: 1px;
                     background-color: #dbd5d5;
                     border: none;
-                    margin: 0 auto;
+                    margin: 5px auto 15px auto;
                     
                 }
     
@@ -700,7 +701,7 @@ header {
                     border: none;
                     outline: none;
                     font-weight: 500;
-                    height: 40px;
+                    height: 50px;
                     background-color: #252d4f;
                     font-family: 'Ubuntu', sans-serif;
                     font-size: 16px;

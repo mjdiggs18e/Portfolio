@@ -243,7 +243,7 @@ header .social-icons .fa-bars {
   background: #212840;
   overflow: hidden;
   margin: 10px 40px 10px 0;
-  border-radius: 12px;
+  border-radius: 2px;
 }
 
 .project-content .project-holder .project-maincard .project-image img {
@@ -272,12 +272,12 @@ header .social-icons .fa-bars {
 }
 
 .project-content .project-holder .project-maincard .project-body .project-buttons button {
-  width: 80px;
+  width: 100px;
   height: 40px;
   padding: .3rem;
   cursor: pointer;
   color: #fff;
-  border-radius: 12px;
+  border-radius: 2px;
   border: none;
   outline: none;
   font-weight: 500;
@@ -321,7 +321,7 @@ header .social-icons .fa-bars {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 auto;
+  margin: 10px auto auto auto;
 }
 
 .contact-content form label {
@@ -364,7 +364,7 @@ header .social-icons .fa-bars {
   border: none;
   outline: none;
   font-weight: 500;
-  height: 40px;
+  height: 50px;
   background-color: #252d4f;
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
@@ -384,7 +384,7 @@ header .social-icons .fa-bars {
     background: #212840;
     overflow: hidden;
     margin-right: 40px;
-    border-radius: 12px;
+    border-radius: 2px;
   }
   .project-content .project-holder .project-maincard .project-body .cardtitle {
     font-size: 12px;
@@ -402,7 +402,7 @@ header .social-icons .fa-bars {
     padding: .6rem;
     cursor: pointer;
     color: #fff;
-    border-radius: 12px;
+    border-radius: 2px;
     border: none;
     outline: none;
     font-weight: 500;
@@ -501,12 +501,12 @@ header .social-icons .fa-bars {
     width: 250px;
   }
   .about-content .about-tagline {
-    font-size: 16px;
+    font-size: 18px;
     color: #dbd5d5;
     margin: 30px auto 0 auto;
     letter-spacing: 1px;
     line-height: 25px;
-    max-width: 95%;
+    max-width: 100%;
   }
   .about-content .about-button {
     width: 250px;
@@ -595,7 +595,7 @@ header .social-icons .fa-bars {
     padding: .3rem;
     cursor: pointer;
     color: #fff;
-    border-radius: 12px;
+    border-radius: 2px;
     border: none;
     outline: none;
     font-weight: 500;
@@ -626,7 +626,7 @@ header .social-icons .fa-bars {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 20px auto 0 auto;
+    margin: 30px auto 0 auto;
   }
   .contact-content form label {
     margin: 10px 0;
@@ -639,7 +639,7 @@ header .social-icons .fa-bars {
     letter-spacing: 1px;
     background-color: #dbd5d5;
     border: none;
-    margin: 0 auto;
+    margin: 5px auto 15px auto;
   }
   .contact-content form textarea {
     width: 90%;
@@ -659,7 +659,7 @@ header .social-icons .fa-bars {
     border: none;
     outline: none;
     font-weight: 500;
-    height: 40px;
+    height: 50px;
     background-color: #252d4f;
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
