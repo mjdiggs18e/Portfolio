@@ -387,12 +387,12 @@ header .social-icons .fa-bars {
     border-radius: 2px;
   }
   .project-content .project-holder .project-maincard .project-body .cardtitle {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
   }
   .project-content .project-holder .project-maincard .project-body .description {
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 10px;
     letter-spacing: 1px;
   }
@@ -417,6 +417,10 @@ header .social-icons .fa-bars {
 }
 
 @media (max-width: 768px) {
+  .project-content .project-holder .project-maincard {
+    margin-right: 0px;
+  }
+
   header .activew {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -485,6 +489,8 @@ header .social-icons .fa-bars {
     margin: 0 20px 10px 0;
     letter-spacing: 1px;
   }
+
+
 }
 
 @media (max-width: 425px) {
