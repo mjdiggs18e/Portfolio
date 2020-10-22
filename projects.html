@@ -23,8 +23,8 @@
             </nav>
             <div class="social-icons">
                 <i class="fas fa-bars"></i>
-                <a href="https://twitter.com/mjdiggs" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/mjdiggs18e" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/mjdiggs" rel="noopener" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/mjdiggs18e" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </header>
     
@@ -33,33 +33,33 @@
         <div class="project-holder">
             <div class="project-maincard">
                 <div class="project-image">
-                    <a href="https://mjdiggs18e.github.io/AniSchedule/" target="_blank"><img src="./images/anischedule.PNG" alt="anischedule"></a>  
+                    <a href="https://mjdiggs18e.github.io/AniSchedule/" rel="noopener" target="_blank"><img src="./images/anischedule.PNG" alt="anischedule"></a>  
                 </div>
                 <div class="project-body">
                     <p class="cardtitle">AniSchedule</p>
-                    <p class="description">Pulled data from the public <a href="https://anilist.gitbook.io/anilist-apiv2-docs/">Anilist APIv2 Documentation</a> using GraphQL.
+                    <p class="description">Pulled data from the public <a href="https://anilist.gitbook.io/anilist-apiv2-docs/" rel="noopener" target="_blank">Anilist APIv2 Documentation</a> using GraphQL.
                         I displayed the data in the form of cards using SCSS with a list of statistics pertaining to each anime. Anischedule automatically updates and displays
                         new data when available.
                     </p>
                     <div class="project-buttons">
-                        <a href="https://github.com/mjdiggs18e/AniSchedule" target="_blank"><button>View Code</button></a>
-                        <a href="https://mjdiggs18e.github.io/AniSchedule/" target="_blank"><button>Live Site</button></a>
+                        <a href="https://github.com/mjdiggs18e/AniSchedule" rel="noopener" target="_blank"><button>View Code</button></a>
+                        <a href="https://mjdiggs18e.github.io/AniSchedule/" rel="noopener" target="_blank"><button>Live Site</button></a>
                     </div>
                 </div>
             </div>
 
             <div class="project-maincard">
                 <div class="project-image">
-                    <a href="https://mjdiggs18e.github.io/CountryKnowledge/" target="_blank"><img src="./images/country.PNG" alt="CountryKnowledge"></a>  
+                    <a href="https://mjdiggs18e.github.io/CountryKnowledge/" rel="noopener" target="_blank"><img src="./images/country.PNG" alt="CountryKnowledge"></a>  
                 </div>
                 <div class="project-body">
                     <p class="cardtitle">CountryKnowledge</p>
-                    <p class="description">Pulled data from the public <a href="https://restcountries.eu/#api-endpoints-name">Rest Countries API Documentation</a> using Fetch.
+                    <p class="description">Pulled data from the public <a href="https://restcountries.eu/#api-endpoints-name" rel="noopener" target="_blank">Rest Countries API Documentation</a> using Fetch.
                         Data is displayed when a real country name is typed or selected from the dropdown. CountryKnowledge updates everytime a new country name is entered with relevant
                         information such as their Currencies, Languages Spoken, Timezones, and more.
                     <div class="project-buttons">
-                        <a href="https://github.com/mjdiggs18e/CountryKnowledge" target="_blank"><button>View Code</button></a>
-                        <a href="https://mjdiggs18e.github.io/CountryKnowledge/" target="_blank"><button>Live Site</button></a>
+                        <a href="https://github.com/mjdiggs18e/CountryKnowledge" rel="noopener" target="_blank"><button>View Code</button></a>
+                        <a href="https://mjdiggs18e.github.io/CountryKnowledge/" rel="noopener" target="_blank"><button>Live Site</button></a>
                     </div>
                 </div>
             </div>
@@ -72,11 +72,11 @@
 
 
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js" async></script>
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
-    <script src="./javascript/main.js"></script>
+    <script src="./javascript/main.js" async></script>
 
-    <script>
+    <script async>
         var tl = gsap.timeline({defaults: {duration: 1}})
         tl.from('.logo', {opacity: 0, duration: .5, y: -50, ease: 'Power-4.easeInOut'})
         tl.from('ul', {opacity: 0, duration: .5, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
