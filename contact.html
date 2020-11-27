@@ -1,66 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>MJDiggs - Web Developer</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <div class="wrapper">
-        <header>
-            <a href="index.html" class="logo">MD</a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="social-icons">
-                <i class="fas fa-bars"></i>
-                <a href="https://twitter.com/mjdiggs" rel="noopener" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/mjdiggs18e" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-        </header>
-    
-    <div class="contact-content">
-        <h1 class="contact-title">Contact</h1>
-        <p class="contact-tagline">If you have any questions or would like to work together.</p>
-            <form action="https://formsubmit.co/mjdiggs18.e@gmail.com" 
-            method="POST">
-                 <label for="name">Your Name <span>*</span></label>
-                 <input type="text" id="name" name="name" required>
-                 <label for="email">Your Email <span>*</span></label>
-                 <input type="email" id="email" name="email" required>
-                 <label for="message">Your Message <span>*</span></label>
-                 <textarea name="message" id="message" required></textarea>
-                 <button type="submit">Send Message</button>
-            </form>
-    </div>
-    </div>
+      <header>
+        <a href="index.html" class="logo">MD</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social-icons">
+          <i class="fas fa-bars"></i>
+          <a href="https://twitter.com/mjdiggs" rel="noopener" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://github.com/mjdiggs18e" rel="noopener" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </header>
 
+      <div class="contact-content">
+        <h1 class="contact-title">Contact</h1>
+        <p class="contact-tagline">
+          If you have any questions or would like to work together.
+        </p>
+        <form name="contact" data-netlify="true" method="POST">
+          <label for="name">Your Name <span>*</span></label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Your Email <span>*</span></label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Your Message <span>*</span></label>
+          <textarea name="message" id="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+      integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c"
+      crossorigin="anonymous"
+    ></script>
     <script src="./javascript/main.js" async></script>
 
     <script defer>
-        var tl = gsap.timeline({defaults: {duration: 1}})
-        tl.from('.logo', {opacity: 0, duration: .5, y: -50, ease: 'Power-4.easeInOut'})
-        tl.from('ul', {opacity: 0, duration: .5, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
-        tl.from('.social-icons', {opacity: 0, duration: .5, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
-        tl.from('.contact-title', {opacity: 0, duration: .5, y: -50, ease: 'Power-4.easeInOut'}, "-=.4")
-        tl.from('.contact-tagline', {opacity: 0, duration: .5, y: -50, stagger:.1, ease: 'Power-4.easeInOut'}, "-=.4")
-        tl.from('label', {opacity: 0, duration: .5, y: -50, stagger:.1, ease: 'Power-4.easeInOut'}, "-=.4")
-        tl.from('input', {opacity: 0, duration: .5, y: -50, stagger:.1, ease: 'Power-4.easeInOut'}, "-=.4")
-        tl.from('textarea', {opacity: 0, duration: .5, y: -50, stagger:.1, ease: 'Power-4.easeInOut'}, "-=.4")
-        tl.from('button', {opacity: 0, duration: .5, y: -50, stagger:.1, ease: 'Power-4.easeInOut'}, "-=.4")
+      var tl = gsap.timeline({ defaults: { duration: 1 } });
+      tl.from('.logo', {
+        opacity: 0,
+        duration: 0.5,
+        y: -50,
+        ease: 'Power-4.easeInOut',
+      });
+      tl.from(
+        'ul',
+        { opacity: 0, duration: 0.5, y: -50, ease: 'Power-4.easeInOut' },
+        '-=.4'
+      );
+      tl.from(
+        '.social-icons',
+        { opacity: 0, duration: 0.5, y: -50, ease: 'Power-4.easeInOut' },
+        '-=.4'
+      );
+      tl.from(
+        '.contact-title',
+        { opacity: 0, duration: 0.5, y: -50, ease: 'Power-4.easeInOut' },
+        '-=.4'
+      );
+      tl.from(
+        '.contact-tagline',
+        {
+          opacity: 0,
+          duration: 0.5,
+          y: -50,
+          stagger: 0.1,
+          ease: 'Power-4.easeInOut',
+        },
+        '-=.4'
+      );
+      tl.from(
+        'label',
+        {
+          opacity: 0,
+          duration: 0.5,
+          y: -50,
+          stagger: 0.1,
+          ease: 'Power-4.easeInOut',
+        },
+        '-=.4'
+      );
+      tl.from(
+        'input',
+        {
+          opacity: 0,
+          duration: 0.5,
+          y: -50,
+          stagger: 0.1,
+          ease: 'Power-4.easeInOut',
+        },
+        '-=.4'
+      );
+      tl.from(
+        'textarea',
+        {
+          opacity: 0,
+          duration: 0.5,
+          y: -50,
+          stagger: 0.1,
+          ease: 'Power-4.easeInOut',
+        },
+        '-=.4'
+      );
+      tl.from(
+        'button',
+        {
+          opacity: 0,
+          duration: 0.5,
+          y: -50,
+          stagger: 0.1,
+          ease: 'Power-4.easeInOut',
+        },
+        '-=.4'
+      );
     </script>
-
-</body>
+  </body>
 </html>
