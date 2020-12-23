@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -26,8 +26,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 header .logo {
@@ -63,7 +63,7 @@ header .social-icons {
   padding: 7px 0 0 0;
 }
 
-header .social-icons .fa-twitter {
+header .social-icons .fa-file {
   margin-right: 20px;
 }
 
@@ -173,7 +173,7 @@ header .social-icons .fa-bars {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 50px auto;
   width: 60%;
 }
@@ -187,7 +187,7 @@ header .social-icons .fa-bars {
 .skills-content .skill-layout .skills-technical p {
   border-radius: 4px;
   background: #252d4f;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 0px 15px 5px 0px;
   letter-spacing: 1px;
 }
@@ -197,7 +197,7 @@ header .social-icons .fa-bars {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 60%;
   margin: 50px auto;
 }
@@ -211,7 +211,7 @@ header .social-icons .fa-bars {
 .skills-content .skill-layout .skills-soft p {
   border-radius: 4px;
   background: #252d4f;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 0 10px 10px 0;
   letter-spacing: 1px;
 }
@@ -232,10 +232,10 @@ header .social-icons .fa-bars {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .project-content .project-holder .project-maincard {
@@ -251,7 +251,7 @@ header .social-icons .fa-bars {
 }
 
 .project-content .project-holder .project-maincard .project-body {
-  padding: .6rem 1.5rem;
+  padding: 0.6rem 1.5rem;
 }
 
 .project-content .project-holder .project-maincard .project-body .cardtitle {
@@ -266,15 +266,25 @@ header .social-icons .fa-bars {
   letter-spacing: 1px;
 }
 
-.project-content .project-holder .project-maincard .project-body .description a {
+.project-content
+  .project-holder
+  .project-maincard
+  .project-body
+  .description
+  a {
   text-decoration: underline;
   color: #fff;
 }
 
-.project-content .project-holder .project-maincard .project-body .project-buttons button {
+.project-content
+  .project-holder
+  .project-maincard
+  .project-body
+  .project-buttons
+  button {
   width: 100px;
   height: 40px;
-  padding: .3rem;
+  padding: 0.3rem;
   cursor: pointer;
   color: #fff;
   border-radius: 2px;
@@ -315,12 +325,12 @@ header .social-icons .fa-bars {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 10px auto auto auto;
 }
 
@@ -329,13 +339,13 @@ header .social-icons .fa-bars {
 }
 
 .contact-content form label span {
-  color: #EF6F6C;
+  color: #ef6f6c;
 }
 
 .contact-content form input {
   width: 300px;
   height: 30px;
-  padding: .5rem;
+  padding: 0.5rem;
   outline: none;
   letter-spacing: 1px;
   background-color: #dbd5d5;
@@ -347,7 +357,7 @@ header .social-icons .fa-bars {
 .contact-content form textarea {
   width: 300px;
   height: 120px;
-  padding: .5rem;
+  padding: 0.5rem;
   resize: none;
   margin: 0 auto;
   border: none;
@@ -391,15 +401,24 @@ header .social-icons .fa-bars {
     font-weight: 500;
     letter-spacing: 1px;
   }
-  .project-content .project-holder .project-maincard .project-body .description {
+  .project-content
+    .project-holder
+    .project-maincard
+    .project-body
+    .description {
     font-size: 14px;
     margin-top: 10px;
     letter-spacing: 1px;
   }
-  .project-content .project-holder .project-maincard .project-body .project-buttons button {
+  .project-content
+    .project-holder
+    .project-maincard
+    .project-body
+    .project-buttons
+    button {
     width: 100px;
     height: 40px;
-    padding: .6rem;
+    padding: 0.6rem;
     cursor: pointer;
     color: #fff;
     border-radius: 2px;
@@ -464,7 +483,7 @@ header .social-icons .fa-bars {
   .skills-content .skill-layout .skills-technical p {
     border-radius: 4px;
     background: #252d4f;
-    padding: .5rem;
+    padding: 0.5rem;
     margin: 0 20px 10px 0;
     letter-spacing: 1px;
   }
@@ -473,7 +492,7 @@ header .social-icons .fa-bars {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 90%;
     margin: 50px auto;
   }
@@ -485,12 +504,10 @@ header .social-icons .fa-bars {
   .skills-content .skill-layout .skills-soft p {
     border-radius: 4px;
     background: #252d4f;
-    padding: .5rem;
+    padding: 0.5rem;
     margin: 0 20px 10px 0;
     letter-spacing: 1px;
   }
-
-
 }
 
 @media (max-width: 425px) {
@@ -534,7 +551,7 @@ header .social-icons .fa-bars {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin: 50px auto;
     width: 90%;
   }
@@ -544,7 +561,7 @@ header .social-icons .fa-bars {
   .skills-content .skill-layout .skills-technical p {
     border-radius: 4px;
     background: #252d4f;
-    padding: .5rem;
+    padding: 0.5rem;
     margin: 0 10px 20px 0;
     letter-spacing: 1px;
   }
@@ -553,7 +570,7 @@ header .social-icons .fa-bars {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 90%;
     margin: 50px auto;
   }
@@ -566,15 +583,15 @@ header .social-icons .fa-bars {
   .skills-content .skill-layout .skills-soft p {
     border-radius: 4px;
     background: #252d4f;
-    padding: .5rem;
+    padding: 0.5rem;
     margin: 0 10px 10px 0;
     letter-spacing: 1px;
   }
   .project-content .project-holder {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .project-content .project-holder .project-maincard {
     width: 250px;
@@ -583,22 +600,31 @@ header .social-icons .fa-bars {
     margin: 0 auto 20px auto;
   }
   .project-content .project-holder .project-maincard .project-body {
-    padding: .6rem 1.5rem;
+    padding: 0.6rem 1.5rem;
   }
   .project-content .project-holder .project-maincard .project-body .cardtitle {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
   }
-  .project-content .project-holder .project-maincard .project-body .description {
+  .project-content
+    .project-holder
+    .project-maincard
+    .project-body
+    .description {
     font-size: 12px;
     margin-top: 10px;
     letter-spacing: 1px;
   }
-  .project-content .project-holder .project-maincard .project-body .project-buttons button {
+  .project-content
+    .project-holder
+    .project-maincard
+    .project-body
+    .project-buttons
+    button {
     width: 80px;
     height: 40px;
-    padding: .3rem;
+    padding: 0.3rem;
     cursor: pointer;
     color: #fff;
     border-radius: 2px;
@@ -626,12 +652,12 @@ header .social-icons .fa-bars {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin: 30px auto 0 auto;
   }
   .contact-content form label {
@@ -640,7 +666,7 @@ header .social-icons .fa-bars {
   .contact-content form input {
     width: 90%;
     height: 30px;
-    padding: .25rem;
+    padding: 0.25rem;
     outline: none;
     letter-spacing: 1px;
     background-color: #dbd5d5;
@@ -650,7 +676,7 @@ header .social-icons .fa-bars {
   .contact-content form textarea {
     width: 90%;
     height: 120px;
-    padding: .25rem;
+    padding: 0.25rem;
     resize: none;
     margin: 0 auto;
     border: none;
