@@ -467,7 +467,7 @@ header .social-icons .fa-bars {
     padding: 7px 0 0 0;
     z-index: 5;
   }
-  header .social-icons .fa-twitter,
+  header .social-icons .fa-file,
   header .social-icons .fa-github {
     display: none;
   }
