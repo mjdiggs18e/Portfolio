@@ -37,6 +37,39 @@
           <div class="project-maincard">
             <div class="project-image">
               <a
+                href="https://anischedule.mjdiggs.com"
+                rel="noopener"
+                target="_blank"
+                ><img src="./images/anischedule.PNG" alt="anischedule"
+              /></a>
+            </div>
+            <div class="project-body">
+              <p class="cardtitle">AniSchedule</p>
+              <p class="description">
+                Displays current, past, and upcoming anime seasons and what
+                anime are airing. Shows information for each anime such as
+                official airing date, description, and when the next episode
+                comes out.
+              </p>
+              <div class="project-buttons">
+                <a
+                  href="https://github.com/mjdiggs18e/Anischedule-react"
+                  rel="noopener"
+                  target="_blank"
+                  ><button>View Code</button></a
+                >
+                <a
+                  href="https://anischedule.mjdiggs.com"
+                  rel="noopener"
+                  target="_blank"
+                  ><button>Live Site</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-maincard">
+            <div class="project-image">
+              <a
                 href="https://hardwareswap.mjdiggs.com"
                 rel="noopener"
                 target="_blank"
@@ -60,40 +93,6 @@
                 >
                 <a
                   href="https://hardwareswap.mjdiggs.com"
-                  rel="noopener"
-                  target="_blank"
-                  ><button>Live Site</button></a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="project-maincard">
-            <div class="project-image">
-              <a
-                href="https://anischedule.mjdiggs.com"
-                rel="noopener"
-                target="_blank"
-                ><img src="./images/anischedule.PNG" alt="anischedule"
-              /></a>
-            </div>
-            <div class="project-body">
-              <p class="cardtitle">AniSchedule</p>
-              <p class="description">
-                Displays current, past, and upcoming anime seasons and what
-                anime are airing. Shows information for each anime such as
-                official airing date, description, and when the next episode
-                comes out.
-              </p>
-              <div class="project-buttons">
-                <a
-                  href="https://github.com/mjdiggs18e/Anischedule"
-                  rel="noopener"
-                  target="_blank"
-                  ><button>View Code</button></a
-                >
-                <a
-                  href="https://anischedule.mjdiggs.com"
                   rel="noopener"
                   target="_blank"
                   ><button>Live Site</button></a
@@ -215,37 +214,37 @@
 
     <script defer>
       var tl = gsap.timeline({ defaults: { duration: 1 } });
-      tl.from('.logo', {
+      tl.from(".logo", {
         opacity: 0,
         duration: 0.5,
         y: -50,
-        ease: 'Power-4.easeInOut',
+        ease: "Power-4.easeInOut",
       });
       tl.from(
-        'ul',
-        { opacity: 0, duration: 0.5, y: -50, ease: 'Power-4.easeInOut' },
-        '-=.4'
+        "ul",
+        { opacity: 0, duration: 0.5, y: -50, ease: "Power-4.easeInOut" },
+        "-=.4"
       );
       tl.from(
-        '.social-icons',
-        { opacity: 0, duration: 0.5, y: -50, ease: 'Power-4.easeInOut' },
-        '-=.4'
+        ".social-icons",
+        { opacity: 0, duration: 0.5, y: -50, ease: "Power-4.easeInOut" },
+        "-=.4"
       );
       tl.from(
-        '.project-title',
-        { opacity: 0, duration: 0.5, y: -50, ease: 'Power-4.easeInOut' },
-        '-=.4'
+        ".project-title",
+        { opacity: 0, duration: 0.5, y: -50, ease: "Power-4.easeInOut" },
+        "-=.4"
       );
       tl.from(
-        '.project-maincard',
+        ".project-maincard",
         {
           opacity: 0,
           duration: 0.5,
           y: -50,
           stagger: 0.1,
-          ease: 'Power-4.easeInOut',
+          ease: "Power-4.easeInOut",
         },
-        '-=.4'
+        "-=.4"
       );
     </script>
   </body>
